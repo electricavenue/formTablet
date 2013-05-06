@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>News</title> 
+<!--
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.css" />	
+<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js"></script>-->
+
+<link rel="stylesheet" href="css-js/jquery.mobile-1.0a2.min.css" />	
+<script src="css-js/jquery-1.4.4.min.js"></script>
+<script src="css-js/jquery.mobile-1.0a2.min.js"></script>
+<script src="css-js/jquery.ba-dotimeout.js"></script> 
+<script src="css-js/jquery.dst.js"></script> 
+
+
+</head> 
+<body> 
+
+<!-- Container page -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Header
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="chooseLanguageMenu">
+                Language:
+            </label>
+            <select id="selectmenu2" name="">
+                <option value="eng">
+                    English
+                </option>
+                <option value="eng">
+                    Spanish/español
+                </option>
+                <option value="eng">
+                    Portuguese/português
+                </option>                                
+            </select>
+       </div>
+        <div style="width: 100%; height: 100%; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute; top: 50%; left: 50%; margin-left: -16px; margin-top: -18px">
+        </div>
+        <form action="">
+            <div data-role="fieldcontain">
+                <label for="textinput1">
+                    Name
+                </label>
+                <input name="" id="name" placeholder="" value="" type="text">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="Comments">
+                    Title
+                </label>
+                <textarea name="" id="textarea1" placeholder=""></textarea>
+            </div>
+	        <div id="checkboxes1" data-role="fieldcontain">
+	            <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+	                <input id="checkbox1" name="" type="checkbox">
+	                <label for="checkbox1">
+	                    I agree
+	                </label>
+	            </fieldset>
+	        </div> 
+	        
+	        <div id="ageBox" data-role="fieldcontain">
+				<fieldset data-role="controlgroup">
+					<legend>Age:</legend>
+				     	<input type="radio" name="radio-choice" id="age-choice-1" value="choice-1" checked="checked" />
+				     	<label for="radio-choice-1"> Less than 12</label>
+				
+				     	<input type="radio" name="radio-choice" id="age-choice-2" value="choice-2"  />
+				     	<label for="radio-choice-2">More than 12 less than 18</label>
+				
+				     	<input type="radio" name="radio-choice" id="age-choice-3" value="choice-3"  />
+				     	<label for="radio-choice-3">More than 18 less than 25</label>
+				
+				     	<input type="radio" name="radio-choice" id="age-choice-3" value="choice-3"  />
+				     	<label for="radio-choice-3">More than 18 less than 25</label>				     	
+				</fieldset>
+	        </div> 	                   
+	        <div data-role="fieldcontain">
+				<fieldset data-role="controlgroup">
+					<legend>Genere:</legend>
+				     	<input type="radio" name="radio-choice" id="gener-choice-1" value="choice-1" checked="checked" />
+				     	<label for="radio-choice-1"> prefer not to say</label>
+				
+				     	<input type="radio" name="radio-choice" id="gener-choice-2" value="choice-2"  />
+				     	<label for="radio-choice-2">Male</label>
+				
+				     	<input type="radio" name="radio-choice" id="-choice-3" value="choice-3"  />
+				     	<label for="radio-choice-3">Famale</label>
+				</fieldset>
+	        </div> 
+
+
+            
+        </form>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+           Electric Avenue Electronic Store Miami
+259 East Flagler Street Miami, FL 33131 
+Phone: (305) 579-5998
+        </h3>
+    </div>
+</div>
+
+
+<!-- Page ends here -->
+</body>
+</html>
